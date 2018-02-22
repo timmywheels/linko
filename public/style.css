@@ -1,0 +1,150 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', helvetica, sans-serif;
+  margin: 25px;
+  background-color: rgb(236, 241, 244);
+  color: rgb(95, 109, 133);
+}
+
+header,
+main{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 340px;
+}
+
+main h3{
+  text-align: center;
+}
+
+header{
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: rgba(200, 16, 46, 0.91);
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 4px;
+  box-shadow: rgb(202, 215, 223) 0px 3px 13px 0px;
+  border: 1px solid #ddd;
+}
+
+input {
+  font-family: 'Karla';
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px darkgrey;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease;
+  
+}
+
+button:hover {
+  opacity: 0.95;
+  box-shadow: none;
+  transition: box-shadow 0.5s ease;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+ul {
+    -webkit-padding-start: 0px;
+}
+
+li {
+  width: 300px;
+  margin-bottom: 5px;
+  list-style: none;
+  font-size: .9em;
+  word-wrap: break-word;
+  text-align: center;
+  background: #fff;
+  margin: 0 auto;
+  padding: 10px 5px;
+  border-radius: 4px;
+  box-shadow: rgb(202, 215, 223) 0px 3px 13px 0px;
+}
+
+.linkLi {
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 20px;
+    border-top: none;
+}
+
+.titleLi {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+  text-align: center;
+
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+footer img{
+  opacity: 0.5;
+  width: 50px;
+  height: auto;
+  transition: opacity 1s ease;
+  
+}
+
+footer img:hover{
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
